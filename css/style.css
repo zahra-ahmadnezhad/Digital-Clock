@@ -1,0 +1,32 @@
+
+html {
+    height: 100%;
+    background: radial-gradient(ellipse at center, #685b67 0%, rgb(230, 215, 230) 70%);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.Digitalclock {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #270736;
+    text-shadow: 0 0 20px #c10ae6, 0 0 20px rgba(10, 175, 230, 0);
+}
+
+#time {
+    letter-spacing: 0.05em;
+    font-size: 5rem;
+    padding: 5px 0;
+}
+
+#date {
+    letter-spacing: 0.1em;
+    font-size: 2.8rem;
+}
